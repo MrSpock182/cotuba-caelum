@@ -1,6 +1,7 @@
 package cotuba.cli;
 
 import cotuba.application.ParametrosEntradaCotuba;
+import cotuba.domain.FormatoEbook;
 import org.apache.commons.cli.*;
 
 import java.nio.file.Files;
@@ -90,8 +91,8 @@ public class LeitorOpcoesCLI implements ParametrosEntradaCotuba {
         return arquivoDeSaida;
     }
 
-    public String getFormato() {
-        return formato;
+    public FormatoEbook getFormato() {
+        return FormatoEbook.valueOf(this.formato);
     }
 
     public Path getDiretorioDosMD() {

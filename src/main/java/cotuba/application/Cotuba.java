@@ -9,18 +9,17 @@ import java.util.List;
 public class Cotuba {
 
     public void executa(ParametrosEntradaCotuba parametros) {
-        String formato = parametros.getFormato();
         Path arquivoDeSaida = parametros.getArquivoDeSaida();
 
         RenderizadorMdHTML renderizadorMdHtml = RenderizadorMdHTML.cria();
         List<Capitulo> capitulos = renderizadorMdHtml.renderiza(parametros.getDiretorioDosMD());
 
         Ebook ebook = new Ebook();
-        ebook.setFormato(formato);
+        ebook.setFormatoEbook(parametros.getFormato());
         ebook.setArquivoSaida(arquivoDeSaida);
         ebook.setCapitulos(capitulos);
 
-        GeradorEbook geradorEbook = GeradorEbook.cria(parametros.getFormato());
+        GeradorEbook geradorEbook = GeradorEbook.cria(ebook);
         geradorEbook.gera(ebook);
     }
 
