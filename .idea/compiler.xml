@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cotuba-cli" />
+        <module name="Caelum" />
+        <module name="klebinho" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Caelum" target="1.5" />
       <module name="cotuba-cli" target="1.8" />
+      <module name="klebinho" target="1.8" />
+      <module name="temaklebinho" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

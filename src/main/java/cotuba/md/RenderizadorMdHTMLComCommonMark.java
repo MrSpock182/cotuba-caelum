@@ -2,6 +2,7 @@ package cotuba.md;
 
 import cotuba.application.RenderizadorMdHTML;
 import cotuba.domain.Capitulo;
+import cotuba.tema.AplicadorTema;
 import org.commonmark.node.AbstractVisitor;
 import org.commonmark.node.Heading;
 import org.commonmark.node.Node;
@@ -60,6 +61,10 @@ public class RenderizadorMdHTMLComCommonMark implements RenderizadorMdHTML {
                             HtmlRenderer renderer = HtmlRenderer.builder().build();
                             String html = renderer.render(document);
                             capitulo.setConteudoHtml(html);
+
+                            AplicadorTema tema = new AplicadorTema();
+                            tema.aplica(capitulo);
+
                             capitulos.add(capitulo);
                         } catch (Exception ex) {
                             throw new RuntimeException("Erro ao renderizar para HTML o arquivo " + arquivoMD, ex);
