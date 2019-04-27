@@ -9,16 +9,13 @@ public class Main {
     public static void main(String[] args) {
 
         LeitorOpcoesCLI leitorOpcoes = new LeitorOpcoesCLI(args);
-        Path diretorioDosMD = leitorOpcoes.getDiretorioDosMD();
-        String formato = leitorOpcoes.getFormato();
-        Path arquivoDeSaida = leitorOpcoes.getArquivoDeSaida();
         Boolean modoVerboso = leitorOpcoes.getModoVerboso();
 
         try {
             Cotuba cotuba = new Cotuba();
-            cotuba.executa(formato, diretorioDosMD, arquivoDeSaida);
+            cotuba.executa(leitorOpcoes);
 
-            System.out.println("Arquivo gerado com sucesso: " + arquivoDeSaida);
+            System.out.println("Arquivo gerado com sucesso: " + leitorOpcoes.getArquivoDeSaida());
         } catch (Exception ex) {
             System.err.println(ex.getMessage());
             if(modoVerboso) {

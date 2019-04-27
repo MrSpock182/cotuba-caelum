@@ -11,10 +11,11 @@ import com.itextpdf.layout.element.AreaBreak;
 import com.itextpdf.layout.element.IBlockElement;
 import com.itextpdf.layout.element.IElement;
 import com.itextpdf.layout.property.AreaBreakType;
+import cotuba.application.GeradorEbook;
 import cotuba.domain.Capitulo;
 import cotuba.domain.Ebook;
 
-public class GeradorPDF {
+public class GeradorPDFComIText implements GeradorEbook {
 
     public void gera(Ebook ebook) {
         List<Capitulo> capitulos = ebook.getCapitulos();

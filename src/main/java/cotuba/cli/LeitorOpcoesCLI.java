@@ -1,12 +1,13 @@
 package cotuba.cli;
 
+import cotuba.application.ParametrosEntradaCotuba;
 import org.apache.commons.cli.*;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class LeitorOpcoesCLI {
+public class LeitorOpcoesCLI implements ParametrosEntradaCotuba {
 
     private Boolean modoVerboso;
     private Path arquivoDeSaida;
