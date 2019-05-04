@@ -1,6 +1,8 @@
 package cotuba.domain;
 
-public class Capitulo {
+import cotuba.plugin.ICapitulo;
+
+public class Capitulo implements ICapitulo {
 
     private String titulo;
     private String conteudoHtml;

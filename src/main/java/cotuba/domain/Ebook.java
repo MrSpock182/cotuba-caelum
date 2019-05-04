@@ -1,9 +1,11 @@
 package cotuba.domain;
 
+import cotuba.plugin.IEbook;
+
 import java.nio.file.Path;
 import java.util.List;
 
-public class Ebook {
+public class Ebook implements IEbook {
     private String titulo;
     private Path arquivoSaida;
     private List<Capitulo> capitulos;
