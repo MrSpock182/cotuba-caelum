@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c1d1121-a699-4fbf-b923-fc2534049ade" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3caa719164c79bedd7b17b256bfd70ac6c5873cb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3caa719164c79bedd7b17b256bfd70ac6c5873cb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/6149aa603e8cd9cc976737b7febfd7d2645a796b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/application/Cotuba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/application/Cotuba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/plugin/PluginCotuba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/plugin/PluginCotuba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/tema/AplicadorTema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/tema/AplicadorTema.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/src/main/java/cotuba/plugin/target/" />
     <ignored path="$PROJECT_DIR$/../target/" />
     <ignored path="$PROJECT_DIR$/../klebinho/target/" />
+    <ignored path="$PROJECT_DIR$/../estatisticas-ebook/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +35,17 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="JAVA" value="63" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="8" />
+          <entry key="JAVA" value="88" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="204" />
-          <entry key="JAVA" value="1491" />
-          <entry key="PLAIN_TEXT" value="52" />
-          <entry key="XML" value="22" />
+          <entry key="JAVA" value="2453" />
+          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="XML" value="26" />
         </counts>
       </usages-collector>
     </session>
@@ -48,14 +53,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../klebinho/src/main/java/KlebinhoPlugin.java">
+        <entry file="file://$PROJECT_DIR$/../estatisticas-ebook/src/main/java/CalculadoraEstatisticas.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-              <folding>
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-              </folding>
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../estatisticas-ebook/src/main/java/ContagemPalavra.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -104,18 +114,25 @@
         <option value="$PROJECT_DIR$/src/main/java/cotuba/application/ParametrosEntradaCotuba.java" />
         <option value="$PROJECT_DIR$/src/main/java/cotuba/cli/LeitorOpcoesCLI.java" />
         <option value="$PROJECT_DIR$/src/main/java/cotuba/application/GeradorEbook.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cotuba/application/Cotuba.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cotuba/tema/AplicadorTema.java" />
         <option value="$PROJECT_DIR$/src/main/java/cotuba/md/RenderizadorMdHTMLComCommonMark.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cotuba/plugin/PluginCotuba.java" />
         <option value="$PROJECT_DIR$/src/main/java/cotuba/plugin/pom.xml" />
         <option value="$PROJECT_DIR$/../pom.xml" />
         <option value="$PROJECT_DIR$/klebinho/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../klebinho/pom.xml" />
         <option value="$PROJECT_DIR$/../klebinho/src/main/resources/tema.css" />
         <option value="$PROJECT_DIR$/../klebinho/src/main/java/FileUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cotuba/tema/AplicadorTema.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cotuba/plugin/PluginCotuba.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cotuba/application/Cotuba.java" />
         <option value="$PROJECT_DIR$/../klebinho/src/main/java/KlebinhoPlugin.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../estatisticas-ebook/pom.xml" />
+        <option value="$PROJECT_DIR$/../estatisticas-ebook/src/main/resources/cotuba.plugin.Plugin" />
+        <option value="$PROJECT_DIR$/../klebinho/src/main/resources/META-INF/cotuba.plugin.Plugin" />
+        <option value="$PROJECT_DIR$/../estatisticas-ebook/src/main/resources/META-INF/services/cotuba.plugin.Plugin" />
+        <option value="$PROJECT_DIR$/../klebinho/src/main/resources/META-INF/services/cotuba.plugin.Plugin" />
+        <option value="$PROJECT_DIR$/../estatisticas-ebook/src/main/java/ContagemPalavra.java" />
+        <option value="$PROJECT_DIR$/../estatisticas-ebook/src/main/java/CalculadoraEstatisticas.java" />
       </list>
     </option>
   </component>
@@ -130,7 +147,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="4" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -138,6 +155,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -176,40 +194,22 @@
             </path>
             <path>
               <item name="cotuba-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cotuba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cotuba" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="estatisticas-ebook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cotuba-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cotuba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cotuba" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cotuba-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="klebinho" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cotuba-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="klebinho" type="462c0819:PsiDirectoryNode" />
+              <item name="estatisticas-ebook" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cotuba-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="klebinho" type="462c0819:PsiDirectoryNode" />
+              <item name="estatisticas-ebook" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cotuba-cli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="klebinho" type="462c0819:PsiDirectoryNode" />
+              <item name="estatisticas-ebook" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -224,11 +224,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="mave&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;Op&#9;PSI&#9;JAVA://cotuba.cli.LeitorOpcoesCLI&#10;Pa&#9;FILE&#9;file://C:/Programacao/Caelum/cotuba/src/main/java/cotuba/application/ParametrosEntradaCotuba.java&#10;Ma&#9;FILE&#9;file://C:/Programacao/Caelum/cotuba/src/main/java/cotuba/cli/Main.java&#10;Lei&#9;PSI&#9;JAVA://cotuba.cli.LeitorOpcoesCLI&#10;mai&#9;FILE&#9;file://C:/Programacao/Caelum/cotuba/src/main/java/cotuba/cli/Main.java&#10;Main&#9;PSI&#9;JAVA://cotuba.cli.Main" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556972171621" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../klebinho" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556990266867" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../estatisticas-ebook" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programacao\Caelum\klebinho\src\main\resources\META-INF\services" />
+      <recent name="C:\Programacao\Caelum\estatisticas-ebook\src\main\resources\META-INF\services" />
+      <recent name="C:\Programacao\Caelum\estatisticas-ebook\src\main\resources\META-INF" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,15 +308,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.30862328" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.5786885" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="SonarLint" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -317,7 +324,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.13993949" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.39183056" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -328,36 +335,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/application/RenderizadorMdHTML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/application/GeradorPDF.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/application/GeradorEPUB.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/epub/GeradorEPUBComEpublib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/cli/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/pdf/GeradorPDFComIText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -377,20 +360,6 @@
         <state relative-caret-position="-233" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/tema/AplicadorTema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/md/RenderizadorMdHTMLComCommonMark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/plugin/pom.xml" />
     <entry file="file://$PROJECT_DIR$/br.com.studiotrek/pom.xml" />
     <entry file="file://$PROJECT_DIR$/../pom.xml" />
@@ -399,6 +368,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -426,49 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/cli/LeitorOpcoesCLI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="72" column="93" selection-start-line="72" selection-start-column="93" selection-end-line="72" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3096#3097#0" expanded="true" />
-            <element signature="e#3153#3154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/application/Cotuba.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/plugin/PluginCotuba.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../klebinho/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../klebinho/src/main/resources/tema.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -476,27 +405,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../klebinho/src/main/java/FileUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/cli/LeitorOpcoesCLI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="256">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#1238#1254#0" expanded="true" />
+            <element signature="method#LeitorOpcoesCLI#0;class#LeitorOpcoesCLI#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/pdf/GeradorPDFComIText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/epub/GeradorEPUBComEpublib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/application/RenderizadorMdHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../klebinho/src/main/java/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/tema/AplicadorTema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/md/RenderizadorMdHTMLComCommonMark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/application/Cotuba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estatisticas-ebook/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cotuba/plugin/PluginCotuba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../klebinho/src/main/java/KlebinhoPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="27" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../klebinho/src/main/java/teste/teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../klebinho/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../estatisticas-ebook/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../klebinho/src/main/resources/META-INF/services/cotuba.plugin.Plugin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../estatisticas-ebook/src/main/resources/META-INF/services/cotuba.plugin.Plugin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../estatisticas-ebook/src/main/java/ContagemPalavra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../estatisticas-ebook/src/main/java/CalculadoraEstatisticas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -590,6 +645,7 @@
     </states>
   </component>
   <component name="mavenExecuteGoalHistory">
-    <option value="" />
+    <option value="$PROJECT_DIR$" />
+    <option value="clean install" />
   </component>
 </project>

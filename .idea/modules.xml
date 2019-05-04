@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Caelum.iml" filepath="$PROJECT_DIR$/../Caelum.iml" />
       <module fileurl="file://$PROJECT_DIR$/cotuba-cli.iml" filepath="$PROJECT_DIR$/cotuba-cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../estatisticas-ebook/estatisticas-ebook.iml" filepath="$PROJECT_DIR$/../estatisticas-ebook/estatisticas-ebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/../klebinho/klebinho.iml" filepath="$PROJECT_DIR$/../klebinho/klebinho.iml" />
     </modules>
   </component>

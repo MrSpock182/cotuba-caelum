@@ -6,11 +6,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../pom.xml" />
         <option value="$PROJECT_DIR$/../klebinho/pom.xml" />
+        <option value="$PROJECT_DIR$/../estatisticas-ebook/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/br.com.studiotrek/pom.xml" />
+        <option value="$PROJECT_DIR$/estatisticas-ebook/pom.xml" />
         <option value="$PROJECT_DIR$/klebinho/pom.xml" />
       </set>
     </option>
