@@ -29,5 +29,3 @@ l
 ,src/main/java/cotuba/tema/AplicadorTema.java,1\d\1d9efb01a6c05865219c1065507972474c290f55
 ]
 -src/main/java/cotuba/plugin/PluginCotuba.java,1\3\1347a5fbddaf3246fda22aed01cb14d789b135f4
-Q
-!src/main/java/KlebinhoPlugin.java,6\1\6149aa603e8cd9cc976737b7febfd7d2645a796b

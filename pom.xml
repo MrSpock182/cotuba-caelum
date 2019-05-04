@@ -6,9 +6,7 @@
 	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
-		<module>br.com.studiotrek</module>
-		<module>klebinho</module>
-		<module>klebinho</module>
+		<module>br.com.studiotrek.klebinho</module>
 	</modules>
 
 	<properties>

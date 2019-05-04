@@ -1,8 +1,8 @@
 
-[squid:S37255"?Replace this with a call to the "toFile().isDirectory()" method(÷”•ûÿÿÿÿ
-Qsquid:S3725H":Replace this with a call to the "toFile().exists()" method(¾Ãè·
 Ysquid:HiddenFieldCheck("7Rename "cmd" which hides the field declared at line 17.(æ×Ø
-]squid:S22591"AA "NullPointerException" could be thrown; "cmd" is nullable here.(Ä¼óæùÿÿÿÿ
 ^squid:S001126"FDefine and throw a dedicated exception instead of using a generic one.(™ÓİÕ
 ^squid:S00112I"FDefine and throw a dedicated exception instead of using a generic one.(Òò‰ 
+Qsquid:S3725H":Replace this with a call to the "toFile().exists()" method(¾Ãè·
+]squid:S22591"AA "NullPointerException" could be thrown; "cmd" is nullable here.(Ä¼óæùÿÿÿÿ
 Vsquid:S3725H"?Replace this with a call to the "toFile().isDirectory()" method(¾Ãè·
+[squid:S37255"?Replace this with a call to the "toFile().isDirectory()" method(÷”•ûÿÿÿÿ
