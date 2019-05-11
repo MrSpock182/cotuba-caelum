@@ -27,5 +27,13 @@ l
 <src/main/java/cotuba/md/RenderizadorMdHTMLComCommonMark.java,f\6\f62a9d11368bf31118973609ee7d4eb8fcaa568f
 \
 ,src/main/java/cotuba/tema/AplicadorTema.java,1\d\1d9efb01a6c05865219c1065507972474c290f55
-]
--src/main/java/cotuba/plugin/PluginCotuba.java,1\3\1347a5fbddaf3246fda22aed01cb14d789b135f4
+Z
+*src/main/java/cotuba/plugin/PluginCss.java,f\f\ffe334047847e730d61c966bb8dc501f875f9e30
+Z
+*src/main/java/cotuba/plugin/ICapitulo.java,1\8\18927d2d066e8db9eb74b2f904bd5fbb9a0cd146
+f
+6src/main/java/cotuba/plugin/PluginAcaoAposGeracao.java,1\e\1e7a51effd61a2527fed6f9149feb53828d1485a
+W
+'src/main/java/cotuba/plugin/IEbook.java,9\4\9410a2f2a6e7ac6c53edc62a7d8a0bb6b8ee8228
+Y
+)src/main/java/cotuba/domain/Capitulo.java,4\8\48491a850b1fe3e37627c1ff9df1778b1d14adc8

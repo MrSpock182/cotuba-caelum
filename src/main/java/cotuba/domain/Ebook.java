@@ -1,15 +1,21 @@
 package cotuba.domain;
 
-import cotuba.plugin.IEbook;
-
 import java.nio.file.Path;
+import java.util.Collections;
 import java.util.List;
 
-public class Ebook implements IEbook {
+public final class Ebook {
+
     private String titulo;
-    private Path arquivoSaida;
-    private List<Capitulo> capitulos;
-    private FormatoEbook formatoEbook;
+    private final Path arquivoSaida;
+    private final List<Capitulo> capitulos;
+    private final FormatoEbook formatoEbook;
+
+    public Ebook(Path arquivoSaida, FormatoEbook formatoEbook, List<Capitulo> capitulos) {
+        this.arquivoSaida = arquivoSaida;
+        this.capitulos = Collections.unmodifiableList(capitulos);
+        this.formatoEbook = formatoEbook;
+    }
 
     public String getTitulo() {
         return titulo;
@@ -23,23 +29,12 @@ public class Ebook implements IEbook {
         return formatoEbook;
     }
 
-    public void setFormatoEbook(FormatoEbook formatoEbook) {
-        this.formatoEbook = formatoEbook;
-    }
-
     public Path getArquivoSaida() {
         return arquivoSaida;
-    }
-
-    public void setArquivoSaida(Path arquivoSaida) {
-        this.arquivoSaida = arquivoSaida;
     }
 
     public List<Capitulo> getCapitulos() {
         return capitulos;
     }
 
-    public void setCapitulos(List<Capitulo> capitulos) {
-        this.capitulos = capitulos;
-    }
 }

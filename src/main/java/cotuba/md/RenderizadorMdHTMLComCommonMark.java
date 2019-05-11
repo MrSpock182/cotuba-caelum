@@ -2,6 +2,7 @@ package cotuba.md;
 
 import cotuba.application.RenderizadorMdHTML;
 import cotuba.domain.Capitulo;
+import cotuba.domain.builder.CapituloBuilder;
 import cotuba.tema.AplicadorTema;
 import org.commonmark.node.AbstractVisitor;
 import org.commonmark.node.Heading;
@@ -32,7 +33,8 @@ public class RenderizadorMdHTMLComCommonMark implements RenderizadorMdHTML {
                     .filter(matcher::matches)
                     .sorted()
                     .forEach(arquivoMD -> {
-                        Capitulo capitulo = new Capitulo();
+                        CapituloBuilder capituloBuilder = new CapituloBuilder();
+
                         Parser parser = Parser.builder().build();
                         Node document = null;
                         try {
@@ -43,7 +45,7 @@ public class RenderizadorMdHTMLComCommonMark implements RenderizadorMdHTML {
                                     if (heading.getLevel() == 1) {
                                         // capítulo
                                         String tituloDoCapitulo = ((Text) heading.getFirstChild()).getLiteral();
-                                        capitulo.setTitulo(tituloDoCapitulo);
+                                        capituloBuilder.comTitulo(tituloDoCapitulo);
                                         // TODO: usar título do capítulo
                                     } else if (heading.getLevel() == 2) {
                                         // seção
@@ -60,12 +62,10 @@ public class RenderizadorMdHTMLComCommonMark implements RenderizadorMdHTML {
                         try {
                             HtmlRenderer renderer = HtmlRenderer.builder().build();
                             String html = renderer.render(document);
-                            capitulo.setConteudoHtml(html);
-
                             AplicadorTema tema = new AplicadorTema();
-                            tema.aplica(capitulo);
+                            capituloBuilder.comHtml(tema.aplica(html));
 
-                            capitulos.add(capitulo);
+                            capitulos.add(capituloBuilder.constroi());
                         } catch (Exception ex) {
                             throw new RuntimeException("Erro ao renderizar para HTML o arquivo " + arquivoMD, ex);
                         }

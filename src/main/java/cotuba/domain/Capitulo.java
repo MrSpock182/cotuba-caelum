@@ -1,25 +1,21 @@
 package cotuba.domain;
 
-import cotuba.plugin.ICapitulo;
+public final class Capitulo {
 
-public class Capitulo implements ICapitulo {
+    private final String titulo;
+    private final String conteudoHtml;
 
-    private String titulo;
-    private String conteudoHtml;
+    public Capitulo(String titulo, String conteudoHtml) {
+        this.titulo = titulo;
+        this.conteudoHtml = conteudoHtml;
+    }
 
     public String getTitulo() {
         return titulo;
-    }
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
     }
 
     public String getConteudoHtml() {
         return conteudoHtml;
     }
 
-    public void setConteudoHtml(String conteudoHtml) {
-        this.conteudoHtml = conteudoHtml;
-    }
 }
