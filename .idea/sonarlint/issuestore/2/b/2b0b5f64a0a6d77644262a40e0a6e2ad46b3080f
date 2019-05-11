@@ -1,7 +1,8 @@
 
+:squid:S1148"#Use a logger to log this exception.(Ç’Çê
 O
-squid:S106"9Replace this use of System.out or System.err by a logger.(™¶ºÀ
-Zsquid:UselessImportCheck"/Remove this unused import 'java.nio.file.Path'.(×²êÂ8´¤ú¥-
-:squid:S1148"#Use a logger to log this exception.(Ç’Çê
+squid:S106"9Replace this use of System.out or System.err by a logger.(•¬ªĞ
 O
-squid:S106"9Replace this use of System.out or System.err by a logger.(•¬ªĞ
+squid:S106"9Replace this use of System.out or System.err by a logger.(™¶ºÀ
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(°”İÅıÿÿÿÿ8¢á»ª-

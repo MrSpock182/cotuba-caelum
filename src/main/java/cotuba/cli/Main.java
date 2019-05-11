@@ -2,8 +2,6 @@ package cotuba.cli;
 
 import cotuba.application.Cotuba;
 
-import java.nio.file.Path;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -13,7 +11,7 @@ public class Main {
 
         try {
             Cotuba cotuba = new Cotuba();
-            cotuba.executa(leitorOpcoes);
+            cotuba.executa(leitorOpcoes, System.out::println);
 
             System.out.println("Arquivo gerado com sucesso: " + leitorOpcoes.getArquivoDeSaida());
         } catch (Exception ex) {

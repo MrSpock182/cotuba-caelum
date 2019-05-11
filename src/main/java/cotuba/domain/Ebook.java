@@ -17,6 +17,13 @@ public final class Ebook {
         this.formatoEbook = formatoEbook;
     }
 
+    public Ebook(String titulo, Path arquivoSaida, FormatoEbook formatoEbook, List<Capitulo> capitulos) {
+        this.titulo = titulo;
+        this.arquivoSaida = arquivoSaida;
+        this.capitulos = Collections.unmodifiableList(capitulos);
+        this.formatoEbook = formatoEbook;
+    }
+
     public String getTitulo() {
         return titulo;
     }
